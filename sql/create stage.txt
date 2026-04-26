@@ -1,0 +1,3 @@
+CREATE OR REPLACE STAGE weather_stage
+URL='azure://weatherlocal.blob.core.windows.net/gold/ready/'
+CREDENTIALS=(AZURE_SAS_TOKEN='<sas_token>');
